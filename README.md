@@ -11,5 +11,5 @@ Instructions:
 * ```gulp build``` before deployment
 * ```npm run deploy``` to publish the site in gh pages
 
-## gh-pages link: https://kikeestrada.github.io/kikeestrada-gulp-boilerplate-email-file-include/
+## gh-pages link: https://kikeestrada.github.io/gulp-boilerplate-email-file-include/
 

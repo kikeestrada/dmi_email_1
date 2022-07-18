@@ -6,6 +6,7 @@ import watch from 'gulp-watch'
 import sourcemaps from 'gulp-sourcemaps'
 import fileinclude from 'gulp-file-include';
 import htmlhint from 'gulp-htmlhint';
+import formatHtml from 'gulp-format-html';
 
 
 const server = browserSync.create();
@@ -39,6 +40,7 @@ gulp.task('html', function() {
 		.on("error", errorHandler)
 		.pipe(htmlhint())
 		.pipe(htmlhint.reporter())
+		.pipe(formatHtml())
 		.pipe(gulp.dest('./public'))
 		
 

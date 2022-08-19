@@ -1,55 +1,40 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta content="telephone=no" name="format-detection">
-	<!--[if !mso]><!-->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!--<![endif]-->
-	<title>Email Title</title>
-	<style type="text/css">
-	/* STYLES HERE! */
-	/* RESET CLASSES */
-	_include('./styles.css')
-	</style>
-	<!--[if gte mso 9]>
-	<xml>
-		<o:OfficeDocumentSettings>
-			<o:AllowPNG/>
-			<o:PixelsPerInch>96</o:PixelsPerInch>
-		</o:OfficeDocumentSettings>
-	</xml>
-	<![endif]-->
-</head>
-<body id="body" style="width:100%; margin:0; padding:0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
-	_include('./modules/00_preheader.html')
-<!-- body wrapper -->
-<table cellpadding="0" cellspacing="0" border="0" style="margin:0; padding:0; width:100%; background: #FFFFFF;" class="body-table">
-	<tr>
-		<td valign="top">
-			<!-- edge wrapper -->
-			<table cellpadding="0" cellspacing="0" border="0" align="center" width="650" class="main-table">
-				<tr>
-					<td valign="top" style="vertical-align: top;">
-						<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="container-table">
-							<tr>
-								<td align="center" valign="top" style="vertical-align: top;">
-									<!-- PUT YOUR CONTENT HERE -->  
-									_include('./modules/component_1.html')
-									_include('./modules/component_2.html')
-									_include('./modules/component_3.html')							
-									<!-- PUT YOUR CONTENT HERE -->
-								</td>
-							</tr>
-						</table>
-					</td>
-				</tr>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+			<meta name="viewport" content="width=320, initial-scale=0.29">
+			<title>Disney ABC</title>
+			<style type="text/css"> 
+					_include('./styles.css')
+			</style>
+			<style type="text/css">
+					/* Custom fonts, working onlyo for mobile, March 2015 */
+					@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+					/* All your usual CSS here */
+			</style>
+	</head>
+	<body>
+		_include('./modules/00_preheader.html')
+			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+					<tr>
+							<td align="center">
+								_include('./modules/01_top_view_online.html')          
+									_include('./modules/02_dk_top_nav.html')
+									_include('./modules/03_mb_top_nav.html')
+									_include('./modules/04_top_banner.html')
+									_include('./modules/05_body_copy.html')
+									_include('./modules/06_grid_title.html')
+									_include('./modules/06_grid_1.html')
+									_include('./modules/07_grid_2.html')
+									_include('./modules/08_grid_3.html')
+									_include('./modules/09_grid_4.html')
+									_include('./modules/10_grid_5.html')
+									_include('./modules/11_bootom_nav.html')
+									_include('./modules/12_footer.html')
+							</td>
+					</tr>
 			</table>
-			<!-- / edge wrapper -->
-		</td>
-	</tr>
-</table>
-<!-- / body wrapper -->
-</body>
+	</body>
 </html>
